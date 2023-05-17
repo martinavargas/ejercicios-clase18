@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Kumbh Sans', sans-serif;
+    font-size: 62.5%;
+    background-color: rgb(237, 220, 126);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px  5px #00000014;
+}
+
+.card-header{
+    width: 100%;
+    display: block;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body-profile{
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50px;
+    margin-top: -48px;
+}
+
+.card-body-name{
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+
+.card-body-user{
+    font-size: 0.8rem;
+    color:rgb(59, 59, 59)
+}
+
+.card-body-biography{
+    font-size: 1rem;
+    margin: 20px;
+    color: rgb(75, 73, 73);
+}
+
+.card-footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer-instagram, .card-footer-twitter{
+    width: 25px;
+    margin: 10px;
+}
+
+.card-footer-youtube{
+    width: 35px;
+    margin: 10px;
+}
